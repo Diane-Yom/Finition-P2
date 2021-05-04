@@ -36,7 +36,6 @@ ul {
     .header nav { /* Modification des marges du menu*/
         grid-area: navbar;
         margin-top: 2rem; 
-        margin-right: 2rem;
     }
     .header ul {
         margin: 1.2rem 0;
@@ -217,7 +216,7 @@ ul {
             .hostingMain h3,
             .hostingPopular h3 {
                 margin: 0.25rem 0.75rem 0 0.75rem;
-                font-size: x-large;
+                font-size: initial;
             }
             .hostingMain p,
             .hostingPopular p {
@@ -267,7 +266,7 @@ ul {
             .hostingPopular img {
                 border-radius: 1rem 0 0 1rem;
                 position: absolute;
-                width: 100%;
+                width: 110%;
                 height: 100%;
                 object-fit: cover;
             }
@@ -275,6 +274,7 @@ ul {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                padding-left: 1rem;
             }
             .hostingPopularWrapSpace {
                 flex: 1;
@@ -399,7 +399,6 @@ ul {
             display: inline-block;
             border-bottom: 3px #f2f2f2 solid;
             width: 100%;
-            margin-left: 1rem;
         }
         .header nav a:hover {
             border-bottom: 3px #0065FC solid;
@@ -453,7 +452,6 @@ ul {
     }
     @media screen and (min-width: 650px) and (max-width:1100px)
     {
-    
     .hostingMain,
     .activity {
         grid-template-columns: 1fr 1fr;
